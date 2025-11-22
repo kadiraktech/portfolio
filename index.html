@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="page.title">Kadir Ak | MIS Student & Junior Web Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-theme="light">
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="logo-area">
+        <div class="logo-circle">KA</div>
+        <div>
+          <h1 class="site-title" data-i18n="header.name">Kadir Ak</h1>
+          <p class="site-subtitle" data-i18n="header.subtitle">
+            MIS Student &amp; Junior Web Developer
+          </p>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#education" data-i18n="nav.education">Education</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Dil butonu -->
+        <button id="langToggle" class="lang-toggle" aria-label="Switch language">
+          EN
+        </button>
+
+        <!-- Tema butonu -->
+        <button id="themeToggle" class="theme-toggle" aria-label="Switch to Dark Mode">
+          <span class="icon-sun">☀</span>
+          <span class="icon-moon">🌙</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ABOUT ME -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2 data-i18n="about.title">About Me</h2>
+          <p data-i18n="about.p1">
+            Şu anda İzmir Bakırçay Üniversitesi'nde İngilizce Yönetim Bilişim
+            Sistemleri (MIS) öğrencisiyim. Teknoloji, yazılım geliştirme ve
+            iş süreçlerinin dijitalleşmesi alanlarına özellikle ilgi
+            duyuyorum.
+          </p>
+          <p data-i18n="about.p2">
+            İlgi alanlarım; web geliştirme (HTML, CSS, temel JavaScript),
+            Flutter ile mobil uygulama geliştirme, veri analitiği ve temel
+            siber güvenlik kavramlarını keşfetmek şeklinde özetlenebilir.
+          </p>
+          <p data-i18n="about.p3">
+            Öğrenme sürecimde özellikle mobil projelere odaklanıyorum.
+            Flutter kullanarak geliştirdiğim
+            <strong>Secura Note</strong> ve <strong>Campus Assistant</strong>
+            uygulamaları üzerinden hem arayüz tasarımı hem de kullanıcı
+            deneyimi konularında kendimi geliştirmeye devam ediyorum.
+          </p>
+          <p data-i18n="about.p4">
+            Kısa vadede hedefim; iyi bir yazılım geliştirme temeliyle güçlü
+            bir staj deneyimi edinmek, uzun vadede ise web ve mobil
+            teknolojileri birleştiren, gerçek iş problemlerini çözen
+            projelerde profesyonel olarak yer almak.
+          </p>
+        </div>
+
+        <div class="about-photo">
+          <img src="My_Photo.jpg" alt="Photo of Kadir Ak" />
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2 data-i18n="education.title">Education</h2>
+        <div class="card-list">
+          <!-- Üniversite -->
+          <div class="card">
+            <h3 data-i18n="education.card1.title">İzmir Bakırçay University</h3>
+            <p class="card-subtitle" data-i18n="education.card1.subtitle">
+              B.Sc. in Management Information Systems (English)
+            </p>
+            <p class="card-year" data-i18n="education.card1.year">2021 – Present</p>
+            <p data-i18n="education.card1.text">
+              İşletme, bilişim teknolojileri ve veri analitiğini bir araya getiren
+              İngilizce Yönetim Bilişim Sistemleri programında öğrenim görüyorum.
+              Program kapsamında; programlama temelleri, veri tabanı yönetimi,
+              sistem analizi, proje yönetimi ve iş zekâsı konularında dersler alıyorum.
+            </p>
+          </div>
+
+          <!-- Mobil Uygulama Geliştirme -->
+          <div class="card">
+            <h3 data-i18n="education.card2.title">
+              Mobile App Development with Flutter
+            </h3>
+            <p class="card-subtitle" data-i18n="education.card2.subtitle">
+              Project-Based Learning – Personal &amp; Online Resources
+            </p>
+            <p class="card-year" data-i18n="education.card2.year">2023 – Ongoing</p>
+            <p data-i18n="education.card2.text">
+              Flutter ve Dart kullanarak Android odaklı mobil uygulamalar
+              geliştiriyorum. Özellikle <strong>Secura Note</strong> ve
+              <strong>Campus Assistant</strong> projeleri üzerinden state management,
+              responsive tasarım, form doğrulama ve temel veri saklama yapıları
+              üzerinde kendimi geliştiriyorum.
+            </p>
+          </div>
+
+          <!-- Web & Temel Yazılım Altyapısı -->
+          <div class="card">
+            <h3 data-i18n="education.card3.title">
+              Web Development &amp; Programming Fundamentals
+            </h3>
+            <p class="card-subtitle" data-i18n="education.card3.subtitle">
+              HTML, CSS, Basic JavaScript &amp; Python
+            </p>
+            <p class="card-year" data-i18n="education.card3.year">2022 – Ongoing</p>
+            <p data-i18n="education.card3.text">
+              Çeşitli çevrimiçi kaynaklar ve ders projeleri ile web geliştirme
+              ve programlama temellerini pekiştiriyorum. HTML ve CSS ile arayüz
+              tasarımı, temel JavaScript ile etkileşimli bileşenler ve Python ile
+              algoritma mantığı üzerinde çalışıyorum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 data-i18n="skills.title">Skills</h2>
+        <div class="skills-grid">
+          <!-- Web & Frontend -->
+          <div class="skill-group">
+            <h3 data-i18n="skills.group1.title">Web &amp; Frontend</h3>
+            <ul>
+              <li data-i18n="skills.group1.li1">
+                Semantic HTML5 ile temiz sayfa yapıları oluşturma
+              </li>
+              <li data-i18n="skills.group1.li2">
+                CSS3 ile responsive layout (Flexbox &amp; Grid)
+              </li>
+              <li data-i18n="skills.group1.li3">
+                Temel JavaScript ile etkileşimli bileşenler geliştirme
+              </li>
+              <li data-i18n="skills.group1.li4">
+                Temel erişilebilirlik (accessibility) ve tipografi kullanımı
+              </li>
+            </ul>
+          </div>
+
+          <!-- Mobile Development (Flutter) -->
+          <div class="skill-group">
+            <h3 data-i18n="skills.group2.title">Mobile Development (Flutter)</h3>
+            <ul>
+              <li data-i18n="skills.group2.li1">
+                Dart dilinde temel programlama ve widget mantığı
+              </li>
+              <li data-i18n="skills.group2.li2">
+                Sayfalar arası geçiş ve navigation yapıları
+              </li>
+              <li data-i18n="skills.group2.li3">
+                Açık / koyu tema yönetimi ve temel UI bileşenleri
+              </li>
+              <li data-i18n="skills.group2.li4">
+                Form doğrulama ve temel veri saklama çözümleri
+              </li>
+            </ul>
+          </div>
+
+          <!-- Programming & Data -->
+          <div class="skill-group">
+            <h3 data-i18n="skills.group3.title">Programming &amp; Data</h3>
+            <ul>
+              <li data-i18n="skills.group3.li1">
+                Python ile temel algoritma, veri yapıları ve script yazımı
+              </li>
+              <li data-i18n="skills.group3.li2">
+                Temel nesne yönelimli programlama (OOP) kavramları
+              </li>
+              <li data-i18n="skills.group3.li3">
+                Temel SQL sorguları ve veri tabanı mantığına giriş
+              </li>
+              <li data-i18n="skills.group3.li4">
+                API &amp; JSON formatı gibi modern veri alışverişi yapıları
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tools, Workflow & Soft Skills -->
+          <div class="skill-group">
+            <h3 data-i18n="skills.group4.title">
+              Tools, Workflow &amp; Soft Skills
+            </h3>
+            <ul>
+              <li data-i18n="skills.group4.li1">
+                Git &amp; GitHub ile versiyon kontrolü ve temel branch kullanımı
+              </li>
+              <li data-i18n="skills.group4.li2">
+                VS Code &amp; Android Studio ile proje geliştirme ortamı kurma
+              </li>
+              <li data-i18n="skills.group4.li3">
+                Hata ayıklama (debugging) ve problem çözme yaklaşımı
+              </li>
+              <li data-i18n="skills.group4.li4">
+                Zaman yönetimi, ekip içi iletişim ve sürekli öğrenme kültürü
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 data-i18n="projects.title">Projects</h2>
+
+        <div class="card-list">
+          <div class="card">
+            <h3 data-i18n="projects.card1.title">
+              Secura Note — Secure &amp; Minimal Flutter Note App
+            </h3>
+            <p data-i18n="projects.card1.text">
+              Secura Note, kişisel notları sade ama güçlü bir arayüzle güvenle
+              saklamanızı sağlayan modern bir Flutter uygulamasıdır. Uygulama;
+              açık/koyu tema desteği, kullanıcı girişi, kayıt olma, not ekleme
+              ve listeleme özellikleriyle tamamen responsive bir deneyim sunar.
+            </p>
+            <p class="project-meta">
+              <span data-i18n="projects.card1.metaLabel">Technologies:</span>
+              <span> Flutter, Dart, Firebase / Local Storage</span>
+            </p>
+            <a href="https://github.com/kadiraktech" target="_blank" class="btn-link" data-i18n="projects.card1.link">
+              View on GitHub
+            </a>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="projects.card2.title">
+              Campus Assistant — Smart Campus Companion
+            </h3>
+            <p data-i18n="projects.card2.text">
+              Campus Assistant, üniversite öğrencilerinin ders programı, duyuru
+              ve görev takibini kolaylaştırmak için geliştirilmiş Flutter
+              tabanlı bir mobil uygulamadır. Öğrenciler; derslerini
+              planlayabilir, kampüs içi duyuruları gerçek zamanlı takip
+              edebilir ve sınav/ödev hatırlatıcılarını yönetebilir.
+            </p>
+            <p class="project-meta">
+              <span data-i18n="projects.card2.metaLabel">Technologies:</span>
+              <span> Flutter, Dart, REST APIs (planned)</span>
+            </p>
+            <a href="https://github.com/kadiraktech" target="_blank" class="btn-link" data-i18n="projects.card2.link">
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 data-i18n="contact.title">Contact</h2>
+        <p data-i18n="contact.intro">
+          Benimle iletişime geçmek için aşağıdaki kanalları kullanabilirsiniz.
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-item">
+            <h3 data-i18n="contact.emailTitle">Email</h3>
+            <p>
+              <a href="mailto:Kadir.ak.tech@gmail.com">
+                Kadir.ak.tech@gmail.com
+              </a>
+            </p>
+          </div>
+
+          <div class="contact-item">
+            <h3 data-i18n="contact.githubTitle">GitHub</h3>
+            <p>
+              <a href="https://github.com/kadiraktech" target="_blank">
+                github.com/kadiraktech
+              </a>
+            </p>
+          </div>
+
+          <div class="contact-item">
+            <h3 data-i18n="contact.linkedinTitle">LinkedIn</h3>
+            <p>
+              <a href="https://www.linkedin.com/in/kadiraktech/" target="_blank">
+                linkedin.com/in/kadiraktech
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p data-i18n="footer.text1">&copy; 2025 Kadir Ak. All rights reserved.</p>
+      <p class="footer-note" data-i18n="footer.text2">
+        Built with HTML &amp; CSS for Personal Portfolio Assignment.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Tema ve Dil Toggle -->
+  <script>
+    // ================= THEME TOGGLE =================
+    const body = document.body;
+    const toggleBtn = document.getElementById("themeToggle");
+
+    toggleBtn.addEventListener("click", () => {
+      const currentTheme = body.getAttribute("data-theme");
+      const newTheme = currentTheme === "light" ? "dark" : "light";
+      body.setAttribute("data-theme", newTheme);
+
+      toggleBtn.setAttribute(
+        "aria-label",
+        newTheme === "light" ? "Switch to Dark Mode" : "Switch to Light Mode"
+      );
+    });
+
+    // ================= TRANSLATIONS =================
+    const translations = {
+      tr: {
+        "page.title": "Kadir Ak | MIS Öğrencisi & Junior Web Developer",
+        "header.name": "Kadir Ak",
+        "header.subtitle": "MIS Öğrencisi & Junior Web Developer",
+        "nav.about": "Hakkımda",
+        "nav.education": "Eğitim",
+        "nav.skills": "Yetenekler",
+        "nav.projects": "Projeler",
+        "nav.contact": "İletişim",
+
+        "about.title": "Hakkımda",
+        "about.p1":
+          "Şu anda İzmir Bakırçay Üniversitesi'nde İngilizce Yönetim Bilişim Sistemleri (MIS) öğrencisiyim. Teknoloji, yazılım geliştirme ve iş süreçlerinin dijitalleşmesi alanlarına özellikle ilgi duyuyorum.",
+        "about.p2":
+          "İlgi alanlarım; web geliştirme (HTML, CSS, temel JavaScript), Flutter ile mobil uygulama geliştirme, veri analitiği ve temel siber güvenlik kavramlarını keşfetmek şeklinde özetlenebilir.",
+        "about.p3":
+          "Öğrenme sürecimde özellikle mobil projelere odaklanıyorum. Flutter kullanarak geliştirdiğim <strong>Secura Note</strong> ve <strong>Campus Assistant</strong> uygulamaları üzerinden hem arayüz tasarımı hem de kullanıcı deneyimi konularında kendimi geliştirmeye devam ediyorum.",
+        "about.p4":
+          "Kısa vadede hedefim; iyi bir yazılım geliştirme temeliyle güçlü bir staj deneyimi edinmek, uzun vadede ise web ve mobil teknolojileri birleştiren, gerçek iş problemlerini çözen projelerde profesyonel olarak yer almak.",
+
+        "education.title": "Eğitim",
+        "education.card1.title": "İzmir Bakırçay Üniversitesi",
+        "education.card1.subtitle":
+          "İngilizce Yönetim Bilişim Sistemleri Lisans Programı",
+        "education.card1.year": "2021 – Devam ediyor",
+        "education.card1.text":
+          "İşletme, bilişim teknolojileri ve veri analitiğini bir araya getiren İngilizce Yönetim Bilişim Sistemleri programında öğrenim görüyorum. Program kapsamında; programlama temelleri, veri tabanı yönetimi, sistem analizi, proje yönetimi ve iş zekâsı konularında dersler alıyorum.",
+
+        "education.card2.title": "Flutter ile Mobil Uygulama Geliştirme",
+        "education.card2.subtitle":
+          "Proje Tabanlı Öğrenme – Kişisel & Çevrim içi Kaynaklar",
+        "education.card2.year": "2023 – Devam ediyor",
+        "education.card2.text":
+          "Flutter ve Dart kullanarak Android odaklı mobil uygulamalar geliştiriyorum. Özellikle <strong>Secura Note</strong> ve <strong>Campus Assistant</strong> projeleri üzerinden state management, responsive tasarım, form doğrulama ve temel veri saklama yapıları üzerinde kendimi geliştiriyorum.",
+
+        "education.card3.title":
+          "Web Geliştirme & Programlama Temelleri",
+        "education.card3.subtitle":
+          "HTML, CSS, Temel JavaScript &amp; Python",
+        "education.card3.year": "2022 – Devam ediyor",
+        "education.card3.text":
+          "Çeşitli çevrimiçi kaynaklar ve ders projeleri ile web geliştirme ve programlama temellerini pekiştiriyorum. HTML ve CSS ile arayüz tasarımı, temel JavaScript ile etkileşimli bileşenler ve Python ile algoritma mantığı üzerinde çalışıyorum.",
+
+        "skills.title": "Yetenekler",
+        "skills.group1.title": "Web &amp; Frontend",
+        "skills.group1.li1":
+          "Semantic HTML5 ile temiz sayfa yapıları oluşturma",
+        "skills.group1.li2":
+          "CSS3 ile responsive layout (Flexbox &amp; Grid)",
+        "skills.group1.li3":
+          "Temel JavaScript ile etkileşimli bileşenler geliştirme",
+        "skills.group1.li4":
+          "Temel erişilebilirlik (accessibility) ve tipografi kullanımı",
+
+        "skills.group2.title": "Mobil Geliştirme (Flutter)",
+        "skills.group2.li1":
+          "Dart dilinde temel programlama ve widget mantığı",
+        "skills.group2.li2":
+          "Sayfalar arası geçiş ve navigation yapıları",
+        "skills.group2.li3":
+          "Açık / koyu tema yönetimi ve temel UI bileşenleri",
+        "skills.group2.li4":
+          "Form doğrulama ve temel veri saklama çözümleri",
+
+        "skills.group3.title": "Programlama &amp; Veri",
+        "skills.group3.li1":
+          "Python ile temel algoritma, veri yapıları ve script yazımı",
+        "skills.group3.li2":
+          "Temel nesne yönelimli programlama (OOP) kavramları",
+        "skills.group3.li3":
+          "Temel SQL sorguları ve veri tabanı mantığına giriş",
+        "skills.group3.li4":
+          "API &amp; JSON formatı gibi modern veri alışverişi yapıları",
+
+        "skills.group4.title": "Araçlar, İş Akışı &amp; Soft Skills",
+        "skills.group4.li1":
+          "Git &amp; GitHub ile versiyon kontrolü ve temel branch kullanımı",
+        "skills.group4.li2":
+          "VS Code &amp; Android Studio ile proje geliştirme ortamı kurma",
+        "skills.group4.li3":
+          "Hata ayıklama (debugging) ve problem çözme yaklaşımı",
+        "skills.group4.li4":
+          "Zaman yönetimi, ekip içi iletişim ve sürekli öğrenme kültürü",
+
+        "projects.title": "Projeler",
+        "projects.card1.title":
+          "Secura Note — Güvenli &amp; Minimal Flutter Not Uygulaması",
+        "projects.card1.text":
+          "Secura Note, kişisel notları sade ama güçlü bir arayüzle güvenle saklamanızı sağlayan modern bir Flutter uygulamasıdır. Uygulama; açık/koyu tema desteği, kullanıcı girişi, kayıt olma, not ekleme ve listeleme özellikleriyle tamamen responsive bir deneyim sunar.",
+        "projects.card1.metaLabel": "Teknolojiler:",
+        "projects.card1.link": "GitHub'da Görüntüle",
+
+        "projects.card2.title":
+          "Campus Assistant — Akıllı Kampüs Asistanı",
+        "projects.card2.text":
+          "Campus Assistant, üniversite öğrencilerinin ders programı, duyuru ve görev takibini kolaylaştırmak için geliştirilmiş Flutter tabanlı bir mobil uygulamadır. Öğrenciler; derslerini planlayabilir, kampüs içi duyuruları gerçek zamanlı takip edebilir ve sınav/ödev hatırlatıcılarını yönetebilir.",
+        "projects.card2.metaLabel": "Teknolojiler:",
+        "projects.card2.link": "GitHub'da Görüntüle",
+
+        "contact.title": "İletişim",
+        "contact.intro":
+          "Benimle iletişime geçmek için aşağıdaki kanalları kullanabilirsiniz.",
+        "contact.emailTitle": "E-posta",
+        "contact.githubTitle": "GitHub",
+        "contact.linkedinTitle": "LinkedIn",
+
+        "footer.text1": "&copy; 2025 Kadir Ak. Tüm hakları saklıdır.",
+        "footer.text2":
+          "Bu portfolyo, kişisel ödev kapsamında HTML &amp; CSS ile geliştirilmiştir."
+      },
+
+      en: {
+        "page.title": "Kadir Ak | MIS Student & Junior Web Developer",
+        "header.name": "Kadir Ak",
+        "header.subtitle": "MIS Student & Junior Web Developer",
+        "nav.about": "About",
+        "nav.education": "Education",
+        "nav.skills": "Skills",
+        "nav.projects": "Projects",
+        "nav.contact": "Contact",
+
+        "about.title": "About Me",
+        "about.p1":
+          "I am currently a Management Information Systems (MIS) student at İzmir Bakırçay University. I am particularly interested in technology, software development, and the digitalization of business processes.",
+        "about.p2":
+          "My main interests include web development (HTML, CSS, basic JavaScript), mobile application development with Flutter, data analytics, and exploring fundamental cybersecurity concepts.",
+        "about.p3":
+          "During my learning journey, I focus especially on mobile projects. With the <strong>Secura Note</strong> and <strong>Campus Assistant</strong> applications I built using Flutter, I continue to improve myself in both UI design and user experience.",
+        "about.p4":
+          "In the short term, my goal is to gain strong internship experience on top of a solid software development foundation. In the long term, I aim to take part in professional projects that combine web and mobile technologies and solve real-world business problems.",
+
+        "education.title": "Education",
+        "education.card1.title": "İzmir Bakırçay University",
+        "education.card1.subtitle":
+          "B.Sc. in Management Information Systems (English)",
+        "education.card1.year": "2021 – Present",
+        "education.card1.text":
+          "I am studying in the English Management Information Systems program, which combines business, information technologies, and data analytics. I take courses on programming fundamentals, database management, systems analysis, project management, and business intelligence.",
+
+        "education.card2.title": "Mobile App Development with Flutter",
+        "education.card2.subtitle":
+          "Project-Based Learning – Personal &amp; Online Resources",
+        "education.card2.year": "2023 – Ongoing",
+        "education.card2.text":
+          "I develop Android-focused mobile applications using Flutter and Dart. Through my <strong>Secura Note</strong> and <strong>Campus Assistant</strong> projects, I improve myself on state management, responsive design, form validation, and basic data storage structures.",
+
+        "education.card3.title":
+          "Web Development &amp; Programming Fundamentals",
+        "education.card3.subtitle":
+          "HTML, CSS, Basic JavaScript &amp; Python",
+        "education.card3.year": "2022 – Ongoing",
+        "education.card3.text":
+          "By using various online resources and course projects, I reinforce my knowledge of web development and programming fundamentals. I work on UI design with HTML and CSS, interactive components with basic JavaScript, and algorithmic thinking with Python.",
+
+        "skills.title": "Skills",
+        "skills.group1.title": "Web &amp; Frontend",
+        "skills.group1.li1":
+          "Building clean page structures with semantic HTML5",
+        "skills.group1.li2":
+          "Responsive layouts with CSS3 (Flexbox &amp; Grid)",
+        "skills.group1.li3":
+          "Developing interactive components with basic JavaScript",
+        "skills.group1.li4":
+          "Applying basic accessibility principles and typography",
+
+        "skills.group2.title": "Mobile Development (Flutter)",
+        "skills.group2.li1":
+          "Fundamental programming in Dart and widget-based UI design",
+        "skills.group2.li2":
+          "Navigation structures and multi-page app flows",
+        "skills.group2.li3":
+          "Light / dark theme management and core UI components",
+        "skills.group2.li4":
+          "Form validation and basic data persistence solutions",
+
+        "skills.group3.title": "Programming &amp; Data",
+        "skills.group3.li1":
+          "Writing basic algorithms, data structures and scripts with Python",
+        "skills.group3.li2":
+          "Understanding core object-oriented programming (OOP) concepts",
+        "skills.group3.li3":
+          "Writing basic SQL queries and learning database fundamentals",
+        "skills.group3.li4":
+          "Working with modern data exchange formats such as APIs &amp; JSON",
+
+        "skills.group4.title": "Tools, Workflow &amp; Soft Skills",
+        "skills.group4.li1":
+          "Version control with Git &amp; GitHub and basic branching",
+        "skills.group4.li2":
+          "Setting up development environments with VS Code &amp; Android Studio",
+        "skills.group4.li3":
+          "Debugging and systematic problem-solving approach",
+        "skills.group4.li4":
+          "Time management, team communication, and continuous learning mindset",
+
+        "projects.title": "Projects",
+        "projects.card1.title":
+          "Secura Note — Secure &amp; Minimal Flutter Note App",
+        "projects.card1.text":
+          "Secura Note is a modern Flutter application that lets you store your personal notes securely with a clean and minimal interface. It offers light/dark theme support, user login & sign-up, note creation and listing features in a fully responsive experience.",
+        "projects.card1.metaLabel": "Technologies:",
+        "projects.card1.link": "View on GitHub",
+
+        "projects.card2.title":
+          "Campus Assistant — Smart Campus Companion",
+        "projects.card2.text":
+          "Campus Assistant is a Flutter-based mobile application designed to help university students manage their course schedules, announcements, and tasks. Students can plan their classes, follow campus announcements in real time, and manage exam/homework reminders.",
+        "projects.card2.metaLabel": "Technologies:",
+        "projects.card2.link": "View on GitHub",
+
+        "contact.title": "Contact",
+        "contact.intro":
+          "You can reach out to me through the channels below.",
+        "contact.emailTitle": "Email",
+        "contact.githubTitle": "GitHub",
+        "contact.linkedinTitle": "LinkedIn",
+
+        "footer.text1": "&copy; 2025 Kadir Ak. All rights reserved.",
+        "footer.text2":
+          "This portfolio was built with HTML &amp; CSS as a personal assignment."
+      }
+    };
+
+    // ================= LANGUAGE TOGGLE =================
+    const langBtn = document.getElementById("langToggle");
+
+    function setLanguage(lang) {
+      const elements = document.querySelectorAll("[data-i18n]");
+      elements.forEach((el) => {
+        const key = el.getAttribute("data-i18n");
+        const translation = translations[lang][key];
+        if (translation !== undefined) {
+          el.innerHTML = translation;
+        }
+      });
+
+      // <html lang=".."> güncelle
+      document.documentElement.setAttribute("lang", lang);
+
+      // Buton metni: tıklanınca geçilecek dili göster
+      if (langBtn) {
+        langBtn.textContent = lang === "tr" ? "EN" : "TR";
+      }
+
+      // Sayfa başlığını da güncelle
+      if (translations[lang]["page.title"]) {
+        document.title = translations[lang]["page.title"];
+      }
+
+      localStorage.setItem("lang", lang);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const savedLang = localStorage.getItem("lang") || "tr";
+      setLanguage(savedLang);
+
+      if (langBtn) {
+        langBtn.addEventListener("click", () => {
+          const current = localStorage.getItem("lang") || "tr";
+          const next = current === "tr" ? "en" : "tr";
+          setLanguage(next);
+        });
+      }
+    });
+  </script>
+</body>
+</html>
